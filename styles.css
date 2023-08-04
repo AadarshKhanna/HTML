@@ -1,0 +1,80 @@
+body { background-color: whitesmoke; }
+hr { width: 10%; border-color: #91f7bdee; border-style: solid; border-width: 2px; }
+h1 { margin-top: 0; color: steelblue; text-align: center; }
+h2 { color: steelblue; text-align: center; }
+h3 { color: steelblue; text-align: center; }
+h4 { color: steelblue; text-align: center; }
+h5 { color: steelblue; text-align: center; }
+h6 { color: steelblue; text-align: center; }
+p { text-align: center; }
+a { color: steelblue;}
+
+.space{margin-left: 1%}
+.university {
+    width: 30;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.university img {
+    width: 100%;
+    height: 30;
+    padding-top: 3%;
+    object-fit: cover;
+}
+.Myself {
+    width: 100%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+.university:hover .Myself {
+    display: block;
+}
+.circular {
+    border-radius: 100%;
+    align-content: center;
+}
+body { margin: 0; }
+
+.length{width: 30%}
+.image {
+    width: 5%;
+    margin: 0 auto;
+    border: solid 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.project1{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 3%;
+}
+
+.photo {
+    width: 100%;
+}
+
+
